@@ -20,6 +20,10 @@ header {
     align-items: center;
 }
 
+header img {
+    width: 75%;
+}
+
 .nav-list {
     display: flex;
     list-style: none;
@@ -99,5 +103,9 @@ header {
     .menu-box {
         width: 20%;
         justify-content: space-between;
+    }
+
+    header img {
+        width: 100%;
     }
 }
